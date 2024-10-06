@@ -1,0 +1,14 @@
+/*
+
+!.gitignore
+
+!rpi-rgb-led-matrix-master/
+rpi-rgb-led-matrix-master/*
+!rpi-rgb-led-matrix-master/bindings/
+rpi-rgb-led-matrix-master/bindings/*
+!rpi-rgb-led-matrix-master/bindings/python/
+rpi-rgb-led-matrix-master/bindings/python/*
+!rpi-rgb-led-matrix-master/bindings/python/samples/
+rpi-rgb-led-matrix-master/bindings/python/samples/*
+!rpi-rgb-led-matrix-master/bindings/python/samples/ProotOS.py
+
