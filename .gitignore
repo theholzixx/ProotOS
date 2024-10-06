@@ -1,6 +1,7 @@
 /*
 
 !.gitignore
+!Readme.md
 
 !rpi-rgb-led-matrix-master/
 rpi-rgb-led-matrix-master/*
