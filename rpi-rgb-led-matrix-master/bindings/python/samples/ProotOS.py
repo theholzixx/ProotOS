@@ -2,9 +2,9 @@
 from samplebase import SampleBase
 
 
-class SimpleSquare(SampleBase):
+class OsProot(SampleBase):
     def __init__(self, *args, **kwargs):
-        super(SimpleSquare, self).__init__(*args, **kwargs)
+        super(OsProot, self).__init__(*args, **kwargs)
 
     def run(self):
         offset_canvas = self.matrix.CreateFrameCanvas()
@@ -68,7 +68,7 @@ class SimpleSquare(SampleBase):
             face = faceNormal
 
             for x in face:
-                for i in face[x]:
+                for i in (face[x]):
                     colour = face[x][i]
                     offset_canvas.SetPixel(x, i, colour.red, colour.green, colour.blue)
                     #offset_canvas.SetPixel(x, i, face[x][i][0], face[x][i][1], face[x][i][2])
@@ -86,6 +86,6 @@ class RGBColour():
 
 # Main function
 if __name__ == "__main__":
-    simple_square = SimpleSquare()
-    if (not simple_square.process()):
-        simple_square.print_help()
+    Proot_OS = OsProot()
+    if (not Proot_OS.process()):
+        Proot_OS.print_help()
